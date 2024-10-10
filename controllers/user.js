@@ -28,6 +28,7 @@ async function userLogin(req, res) {
   return res.redirect("/");
 }
 
+
 module.exports = {
   userSignup,
   userLogin,
